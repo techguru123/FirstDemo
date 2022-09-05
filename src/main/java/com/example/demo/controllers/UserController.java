@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
 	@RequestMapping("/hello")
 	public String getHello() {
-		return "Hii Asha! What is your DOB?!";
+		return "Hii User! What is your DOB?!";
 	}
 
 }
